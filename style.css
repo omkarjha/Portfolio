@@ -1,0 +1,263 @@
+@import url ('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+
+}
+
+.sidebar {
+     background-color: rgb(159, 158, 158);
+     font-family: 'Times New Roman', Times, serif;
+     height: 110vh;
+     transition: transform 0.3s ease-in;
+     position:fixed;
+}
+
+.sidebar nav {
+     padding: 1rem;
+}
+
+.sidebar nav li {
+     list-style: none;
+     font-size: 1rem;
+     padding: 33px 0;
+}
+
+.sidebar nav li a {
+     text-decoration: none;
+     color: black;
+     font-size: 2rem;
+     padding: 33px 0;
+}
+
+.main {
+     /*background-color: rgb(252, 240, 7);*/
+     width: 139rem;
+     margin-left: 25vw;
+}
+
+.container {
+     display: flex;
+
+}
+
+.infoContainer {
+     /*background-color : rgb(126, 63, 178);*/
+     height: 32rem;
+     /* width: 60rem; */
+     margin: 3rem auto;
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+}
+
+.devInfo {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     font-family: 'Source Code Pro', monospace
+}
+
+.hello {
+     font-size: 2rem;
+}
+
+.name {
+     font-size: 2rem;
+     font-weight: bold;
+
+}
+
+.about {
+     font-size: 1rem;
+     font-weight: lighter;
+}
+
+.more {
+     margin-top: 2rem;
+     font-size: 1rem;
+     font-weight: bold;
+}
+
+.more1 {
+     margin-top: 1rem;
+     font-size: 1rem;
+     font-weight: bold;
+}
+
+.buttons {
+     margin-top: 4rem;
+     margin-left: -13px;
+}
+
+.btn {
+     padding: 1rem;
+     border-radius: 2rem;
+     color: white;
+     background-color: rgb(24, 134, 184);
+     font-weight: bold;
+     font-size: 1rem;
+     margin: 0 0.5rem;
+     cursor: pointer;
+     ;
+}
+
+.btn-sm {
+     font-size: 2rem;
+     padding: 3rem;
+     margin: 0rem 9px;
+}
+
+.btn:hover {
+     color: crimson;
+     background-color: white;
+}
+
+.devPic img {
+     margin-block-end: auto;
+     height: 35rem;
+}
+
+.contact {
+     padding: 0 2rem;
+     ;
+     padding-top: 15rem;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact h1 {
+     font-family: 'Times New Roman', Times, serif;
+     text-align: left;
+     font-size: 2rem;
+     padding: 1rem 0;
+     margin-top: -10rem;
+}
+
+.contact form div {
+     padding: 0.5rem;
+     font-size: 2rem;
+     display: flex;
+     flex-direction: column;
+}
+
+.contact form div input{
+     width: 25rem;
+     border-radius: 10rem;
+     margin: 1rem 0;
+     padding: 0.1rem;
+}
+
+#emailHelp {
+     font-size: 1rem;
+     color: rgb(255, 0, 0);
+     margin: 0 0.1rem;
+     padding: 0 0 0;
+}
+#NameHelp {
+     font-size: 1rem;
+     color:rgb(255, 0, 0);
+     margin: 0 0.1rem;
+     padding: 0 0 0;
+}
+.btn-sm{
+     font-size: 10px;
+     padding: 7px 13px;
+     margin: 10px 0;
+     margin-left: 12px;
+}
+
+.blogContainer{
+     position: absolute;
+     margin-left: -5rem;
+}
+
+.blogItem{
+     margin: 2rem;
+     font-family: 'Times New Roman', Times, serif;
+}
+
+.blogContainer h1{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     margin: 2rem;
+}
+
+.devInfo h1{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     margin: 2rem;
+}
+.devInfo p{
+     margin: 2rem;
+     font-family: 'Times New Roman', Times, serif;
+}
+.devInfo h2{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     margin: 2rem;
+
+}
+
+.skill{
+     width: 265px;
+     height: 10px;
+     border: 2px solid black;
+     margin-left: 15px;
+}
+
+.skillItem{
+     margin: 2rem;
+     font-family: 'Times New Roman', Times, serif;
+     display:flex;
+     align-items: center;
+}
+.hundred{
+     width: 120px;
+     background-color: blueviolet;
+}
+.fifty{
+     width: 60px;
+     background-color: aquamarine;
+}
+.twentyFive{
+     width: 30px;
+     background-color: yellow;
+}
+
+.social{
+     display: flex;
+     padding: 5rem;
+     font-size: xx-large;
+     margin-left: 100px;
+     flex-direction: column;
+     gap: 2rem;
+}
+
+.hamburger{
+     position:absolute;
+     cursor: pointer;
+     top: 10px;
+     left: 10px;
+     display: block;
+}
+
+
+.sidebarGo{
+     transform: translate(-443px,0px);
+     position:absolute;
+}
+
+body{
+     overflow:hidden;
+}
+
+@media only screen and (max-width: 1240px) {
+     .sidebar{
+          transform: translate(-443px,0px);
+          position:absolute;
+     }
+     .infoContainer{
+          justify-content: center;
+     }
+   }
+
+
+
